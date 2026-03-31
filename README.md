@@ -8,9 +8,9 @@ Modular agent design (Planner → Execution)
 Supports dynamic prompts
 Clean CLI-based interaction
 
-Tech Stack
-Python
-LangChain
-LangGraph
-Groq API (LLM)
-dotenv
+Tech Stack:
+1)Python
+2)LangChain
+3)LangGraph
+4)Groq API (LLM)
+5)dotenv
