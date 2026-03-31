@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator" class="calculator">
+        <input type="text" id="display" class="display" readonly aria-label="Calculator display">
+        <div class="buttons">
+            <!-- Row 1: Clear, Backspace, Divide -->
+            <button data-key="C">C</button>
+            <button data-key="Backspace">⌫</button>
+            <button data-key="/">/</button>
+            <!-- Row 2: 7 8 9 Multiply -->
+            <button data-key="7">7</button>
+            <button data-key="8">8</button>
+            <button data-key="9">9</button>
+            <button data-key="*">*</button>
+            <!-- Row 3: 4 5 6 Subtract -->
+            <button data-key="4">4</button>
+            <button data-key="5">5</button>
+            <button data-key="6">6</button>
+            <button data-key="-">-</button>
+            <!-- Row 4: 1 2 3 Add -->
+            <button data-key="1">1</button>
+            <button data-key="2">2</button>
+            <button data-key="3">3</button>
+            <button data-key="+">+</button>
+            <!-- Row 5: 0 Decimal Equals -->
+            <button data-key="0">0</button>
+            <button data-key=".">.</button>
+            <button data-key="=">=</button>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>

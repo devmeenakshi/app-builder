@@ -1,0 +1,99 @@
+/* Calculator UI Styling */
+
+/* Container */
+#calculator {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* Display */
+.display {
+    width: 100%;
+    font-size: 2rem;
+    text-align: right;
+    padding: 0.5rem;
+    background: #e9e9e9;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* Buttons Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Base Button Style */
+.buttons button {
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.buttons button:hover {
+    background: #f0f0f0;
+}
+
+.buttons button:active {
+    transform: scale(0.98);
+}
+
+/* Focus outline for accessibility */
+.buttons button:focus {
+    outline: 2px solid #0066ff;
+    outline-offset: 2px;
+}
+
+/* Operation buttons (e.g., +, -, *, /, = ) */
+.op {
+    background: #ff9500;
+    color: #fff;
+    border-color: #e08900;
+}
+
+.op:hover {
+    background: #e08900;
+}
+
+/* Utility buttons (e.g., C, Backspace) */
+.util {
+    background: #d3d3d3;
+    color: #333;
+    border-color: #c0c0c0;
+}
+
+.util:hover {
+    background: #c0c0c0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #calculator {
+        max-width: 100%;
+        margin: 1rem;
+    }
+    .display {
+        font-size: 1.5rem;
+    }
+    .buttons {
+        gap: 0.3rem;
+    }
+    .buttons button {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+}
