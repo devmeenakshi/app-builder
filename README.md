@@ -2,11 +2,11 @@ AI Project Planner Agent:
 An AI-powered agent that converts user prompts into structured project plans using LLMs and workflow orchestration.
 
 Features:
-Converts natural language into structured plans
-Multi-step reasoning using LangGraph workflows
-Modular agent design (Planner → Execution)
-Supports dynamic prompts
-Clean CLI-based interaction
+1.Converts natural language into structured plans
+2.Multi-step reasoning using LangGraph workflows
+3.Modular agent design (Planner → Execution)
+4.Supports dynamic prompts
+5.Clean CLI-based interaction
 
 Tech Stack:
 1)Python
